@@ -1,34 +1,63 @@
 body{
-    background-color: rgb(240, 235, 235);
+    background-image:url("http://codeanddecode.net/wp-content/uploads/2019/07/html-code-scaled.jpg");
+    background-color: black;
     max-width: 900px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .image{
-    margin: 10px;
+    margin: auto;
+    padding: 0px;
     border-radius:10%;
     width: 150px;
-    border: #505050 solid 3px;
+    border: white solid 3px;
+    align-items: center;
 }
 
 .titulo{
-    color: #505050;
+    margin: 0px;
+    color: #ffffff;
     max-width: 250px;
-    padding: 10px;
-    background-color: aliceblue;
-    text-shadow: 0 1px 0 ;
+    padding: 5px;
+    text-shadow:black 3px 4px ;
     border-radius: 3px;
-    border: #505050 solid 1px;
 }
 
 .subtitulo{
-    
+    margin: 0px;
+    margin-bottom: 10px;
     padding: 10px;
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
     border-radius: 3px;
-    border: #505050 solid 1px;
+    border: #ffffff solid 2px;
     max-width: 500px;
 }
+
+.post{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffffff 2px;
+    padding: 10PX;
+    border-radius: 3px;
+}
+.post_content{
+    text-align: justify;
+
+}
+
+h4{
+    margin: 0;
+    color: #ffffff;
+    text-shadow:black 1px 1px ;
+    padding:5px;
+}
+
+h3{
+    margin: 0;
+    color: #2e2e2e;
+    padding:5px;
+}
+
 
 ul{
     margin: 0;
@@ -36,23 +65,11 @@ ul{
     list-style: none;
 }
 
-.post{
-    background-color: #CCC;
-    border: 1px solid black;
-    padding: 10PX;
-}
-.post_content{
-    text-align: justify;
-}
-
-h4{
-    margin: 0;
-    padding:5px;
-}
 
 a{
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: white;
     text-decoration: double;
 }
+
+
