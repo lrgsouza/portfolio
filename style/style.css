@@ -54,21 +54,22 @@ div{
     text-align: justify;
 
 }
-
 footer{
     text-size-adjust: 15px;
     max-width: 200px;
-    color: #ffffff;
     margin: 0;
 }
-/*
+
 h4{
     margin: 0;
+    margin-top: 26.5px;
+    margin-bottom: 20px;
     color: #ffffff;
     text-shadow:black 1px 1px ;
-    padding:5px;
+    padding:0px;
+    width: 100px;
 }
-*/
+
 h3{
     margin: 0;
     color: #2e2e2e;
@@ -79,6 +80,7 @@ h3{
 ul{
     margin: 0;
     margin-top: 5px;
+    margin-bottom: 5px;
     padding: 10px;
     list-style: none;
 }
