@@ -1,24 +1,32 @@
 body{
-    background-image:url(../img/bg.jpg);
+    background-image:url(../img/new-bg.png);
+    background-repeat: no-repeat;
     background-color: black;
     max-width: 900px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+div{
+    display: flex;
+    justify-content: center; 
+}
 .image{
-    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
     padding: 0px;
-    border-radius:10%;
+    border-radius:50%;
     width: 150px;
     border: white solid 3px;
-    align-items: center;
+
 }
 
 .titulo{
     margin: 0px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
     color: #ffffff;
-    max-width: 250px;
+    max-width: 400px;
     padding: 5px;
     text-shadow:black 3px 4px ;
     border-radius: 3px;
@@ -27,8 +35,10 @@ body{
 .subtitulo{
     margin: 0px;
     margin-bottom: 10px;
+    margin-top: 20px;
     padding: 10px;
     background-color:rgb(255, 255, 255);
+    background-blend-mode:darken;
     border-radius: 3px;
     border: #ffffff solid 2px;
     max-width: 500px;
@@ -61,6 +71,7 @@ h3{
 
 ul{
     margin: 0;
+    margin-top: 5px;
     padding: 10px;
     list-style: none;
 }
